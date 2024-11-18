@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       builder: (context, themeProvider, child) {
         return MaterialApp(
           theme: themeProvider.themeData,
-          home: MainScreen(),
+          home: const MainScreen(),
         );
       },
     );
